@@ -1,0 +1,14 @@
+easy_admin:
+    site_name: Lemon Project Backend
+    user:
+      name_property_path: 'username'
+      display_avatar: false
+    entities:
+        Account:
+          class: App\Entity\Account
+        Country:
+          class: App\Entity\Country
+        Job:
+          class: App\Entity\Job
+        User:
+          class: App\Entity\User

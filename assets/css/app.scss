@@ -1,0 +1,38 @@
+body {
+  background-color: rgba(61, 158, 249, 0.63);
+  font-family: sans-serif;
+  padding: 3% 5% 0 10%;
+
+
+  $primary: darken(#428bca, 20%);
+  @import "~bootstrap/scss/bootstrap";
+}
+
+h1 {
+  margin-bottom: 50px !important;
+}
+
+form {
+  max-width: 300px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+input, select {
+  max-width: 300px;
+}
+
+input {
+  margin-bottom: 10px !important;
+}
+
+.btn {
+  float: right;
+}
+
+#account_sexe {
+  display: flex;
+  justify-content: space-evenly;
+}
